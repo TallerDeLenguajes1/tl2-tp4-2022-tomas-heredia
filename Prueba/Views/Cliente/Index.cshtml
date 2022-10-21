@@ -1,0 +1,14 @@
+@{
+    ViewDate["Title"] - "Cliente Page";
+}
+
+<div class = "text-center">
+    <form asp-controller="Cliente" asp-action= "AltaCliente" method="post">
+        <legend>"Registrar Cadete"</legend>
+        <div>"Nombre" <input type="text" name="nom" required></div>
+        <div>"Direccion"<input type="text" name= "dir" required></div>
+        <div>"Telefono"<input type="number" name="tel" required></div>
+        <div>"Descripcion direccion"<input type="text" name= "des" required></div>
+        <div><input type="submit" value="Cargar" name="car"><input type="reset" value="Borrar" name="res"></div>
+    </form>
+</div>
